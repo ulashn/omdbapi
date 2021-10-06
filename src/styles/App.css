@@ -1,0 +1,263 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 521px;
+  height: 482px;
+  left: calc(50% - 521px/2 - 0.5px);
+  top: calc(50% - 482px/2);
+}
+
+.header1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 16px;
+
+  position: static;
+  width: 521px;
+  height: 152px;
+  left: 0px;
+  top: 0px;
+
+  /* movies/white */
+
+  background: #FFFFFF;
+  /* movies/black-surface */
+
+  border: 1px solid rgba(36, 36, 36, 0.25);
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.search:hover {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+}
+
+.paragraph {
+
+  position: static;
+  width: 231px;
+  height: 24px;
+  left: 0px;
+  top: 56px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+}
+
+.paragraph-bold {
+  position: static;
+  width: 84px;
+  height: 24px;
+  left: 16px;
+  top: 16px;
+  padding-top: 8px;
+
+  /* movies/paragraph-bold */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.search-bar {
+  position: static;
+  width: 489px;
+  height: 40px;
+
+  /* movies/white */
+
+  background: #FFFFFF;
+  /* movies/black-surface */
+
+  border: 1px solid rgba(36, 36, 36, 0.25);
+  box-sizing: border-box;
+
+  /* Inside Auto Layout */
+
+}
+
+.search-bar:hover {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+}
+
+#inputID::placeholder {
+  position: absolute;
+  width: 56px;
+  height: 24px;
+  left: 48px;
+  top: calc(50% - 24px/2);
+
+  /* movies/paragraph */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  /* movies/black */
+
+  color: #171717;
+}
+
+
+.btn-submit {
+  align-self: flex-end;
+  height: 40px;
+  width: 89px;
+  justify-content: center;
+  right: 16px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  /* movies/green */
+
+  background: #50B83C;
+  border-radius: 32px;
+}
+
+.btn-submit:hover {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+}
+
+.btn-paragraph {
+  position: static;
+  width: 57px;
+  height: 24px;
+  left: 16px;
+  top: 8px;
+
+  /* movies/paragraph-bold */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* movies/background */
+
+  color: #F9FAFB;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.btn-clr {
+  width: 42px;
+  height: 24px;
+  margin-right: 16px;
+  /* movies/paragraph-bold */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  cursor: pointer;
+
+  color: #50B83C;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.results {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 521px;
+height: 202px;
+left: 0px;
+top: 168px;
+bottom: 8px;
+
+/* movies/white */
+
+background: #FFFFFF;
+/* movies/black-surface */
+
+border: 1px solid rgba(36, 36, 36, 0.25);
+box-sizing: border-box;
+border-radius: 8px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}

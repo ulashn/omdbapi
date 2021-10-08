@@ -143,7 +143,7 @@
 
   /* movies/paragraph */
 
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -212,7 +212,7 @@
   margin-right: 16px;
   /* movies/paragraph-bold */
 
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -299,7 +299,7 @@
 
   /* movies/paragraph-bold */
 
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -316,4 +316,44 @@
   order: 0;
   flex-grow: 0;
   margin: 0px 0px;
+}
+
+.paragraph-detail {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  height: 18px;
+  left: 16px;
+  position: static;
+}
+
+.movie-title {
+  position: static;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  /* movies/paragraph */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  /* movies/black */
+
+  color: #171717;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: -4px;
 }

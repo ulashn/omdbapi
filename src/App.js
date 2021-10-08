@@ -44,7 +44,7 @@ const App = () => {
         }else{
             const hops = movies.data.Search.map((item) => 
                 <div key={item.imdbID}>
-                    <p className=''>{item.Title}</p>
+                    <p className='movie-title'>{item.Title}</p>
                 </div>
             );
             return hops;
@@ -85,6 +85,7 @@ const App = () => {
             {!movies.isLoading ?
                 <div className='results'>
                     <p className='paragraph-bold-before'>Results for "{searchedValue}"</p>
+                    <p className='paragraph-detail'>click on a movie title to learn more about it</p>
                     {moviesJSX()}
                 </div>
                 :

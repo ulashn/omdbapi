@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/github.io/omdbapi/static/css/main.f1496ba8.chunk.css",
+    "main.js": "/github.io/omdbapi/static/js/main.2cb34674.chunk.js",
+    "main.js.map": "/github.io/omdbapi/static/js/main.2cb34674.chunk.js.map",
+    "runtime-main.js": "/github.io/omdbapi/static/js/runtime-main.7cc72516.js",
+    "runtime-main.js.map": "/github.io/omdbapi/static/js/runtime-main.7cc72516.js.map",
+    "static/js/2.ed13268c.chunk.js": "/github.io/omdbapi/static/js/2.ed13268c.chunk.js",
+    "static/js/2.ed13268c.chunk.js.map": "/github.io/omdbapi/static/js/2.ed13268c.chunk.js.map",
+    "index.html": "/github.io/omdbapi/index.html",
+    "static/css/main.f1496ba8.chunk.css.map": "/github.io/omdbapi/static/css/main.f1496ba8.chunk.css.map",
+    "static/js/2.ed13268c.chunk.js.LICENSE.txt": "/github.io/omdbapi/static/js/2.ed13268c.chunk.js.LICENSE.txt",
+    "static/media/AntDesign.ttf": "/github.io/omdbapi/static/media/AntDesign.163adab9.ttf",
+    "static/media/Entypo.ttf": "/github.io/omdbapi/static/media/Entypo.a10f4124.ttf",
+    "static/media/EvilIcons.ttf": "/github.io/omdbapi/static/media/EvilIcons.699664b3.ttf",
+    "static/media/Feather.ttf": "/github.io/omdbapi/static/media/Feather.9c7ce8de.ttf",
+    "static/media/FontAwesome.ttf": "/github.io/omdbapi/static/media/FontAwesome.1e59d233.ttf",
+    "static/media/Foundation.ttf": "/github.io/omdbapi/static/media/Foundation.c0cbb004.ttf",
+    "static/media/Ionicons.ttf": "/github.io/omdbapi/static/media/Ionicons.fef568f6.ttf",
+    "static/media/MaterialCommunityIcons.ttf": "/github.io/omdbapi/static/media/MaterialCommunityIcons.7e8c4430.ttf",
+    "static/media/MaterialIcons.ttf": "/github.io/omdbapi/static/media/MaterialIcons.5e7382c6.ttf",
+    "static/media/Octicons.ttf": "/github.io/omdbapi/static/media/Octicons.8ba1c974.ttf",
+    "static/media/SimpleLineIcons.ttf": "/github.io/omdbapi/static/media/SimpleLineIcons.3ec13a24.ttf",
+    "static/media/Zocial.ttf": "/github.io/omdbapi/static/media/Zocial.5e415922.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cc72516.js",
+    "static/js/2.ed13268c.chunk.js",
+    "static/css/main.f1496ba8.chunk.css",
+    "static/js/main.2cb34674.chunk.js"
+  ]
+}

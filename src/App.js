@@ -90,7 +90,7 @@ const App = () => {
                 </div>
                 :
                 <div className='before-search'>
-                    <p className='paragraph-bold-before'>Search Results will appear here</p>
+                    <p className='paragraph-bold-before'>Search results will appear here</p>
                 </div>
             }
 

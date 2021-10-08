@@ -4,7 +4,7 @@ import { TextField } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import axios from 'axios';
 
-const baseUrl = 'http://www.omdbapi.com/?apikey=9a835ab1&s=';
+const baseUrl = 'https://www.omdbapi.com/?apikey=9a835ab1&s=';
 
 
 const App = () => {
